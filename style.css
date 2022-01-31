@@ -1,0 +1,139 @@
+:root {
+    --cyan: hsl(178, 100%, 50%);
+    --cyan-transparent: hsla(178, 100%, 50%, .5);
+    --soft-blue: hsl(215, 51%, 70%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-bg);
+    font-family: 'Outfit';
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--soft-blue);
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+/* 
+==================
+Typography
+==================
+*/
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--cyan);
+}
+
+.card-main p {
+    font-size: 18px;
+}
+
+
+.highlight {
+    color: var(--cyan);
+}
+
+/* 
+==================
+Layout
+==================
+*/
+
+.card-container {
+    width: 90%;
+    max-width: 285px;
+    background-color: var(--card-bg);
+    padding: 1.3em;
+    margin-bottom: 1em;
+}
+
+.image {
+    background: url("/images/image-equilibrium.jpg");
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cyan-transparent);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.icon:hover,
+.icon:focus {
+    opacity: 1;
+}
+
+.card-container,
+.image,
+.icon {
+    border-radius: 10px;
+}
+
+.card-main {
+    border-bottom: var(--line) 1px solid;
+    
+}
+.card-main-text {
+    margin-bottom: .5em;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    border: white 1px solid;
+}
+
+.center img {
+    margin-right: .5em;
+}
+
+.card-footer .user-icon {
+    margin-right: 1em;
+}
+
+.card-footer p {
+    margin: 0;
+}
+
+.card-footer {
+    margin-top: 1em;
+}
+
+.attribution {
+    text-align: center;
+}
