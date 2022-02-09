@@ -25,7 +25,6 @@ Users should be able to:
 
 ### Screenshot
 
-![image](../nft-preview-card/images/screenshot.png)
 ![image](https://user-images.githubusercontent.com/94812276/153212611-b4d55f24-7c87-4317-bfda-1ca7398f9bc7.png)
 
 
